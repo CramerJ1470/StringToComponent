@@ -64,7 +64,6 @@ const Eachone = (item) => {
 		newComp = RightT;
 	}
 	let code = { html: newComp }; //sets a variable to the component 
-	console.log(`code: `, code.html());
 	let codeHTML = code.html(); //sets a variable to running the Component;
 	
 // Render the component //
